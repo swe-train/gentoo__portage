@@ -9,7 +9,10 @@ Release notes take the form of the following optional categories:
 portage-3.0.65 (UNRELEASED)
 --------------
 
-TODO
+Features:
+* emerge: Make bare --root-deps option install build-time dependencies to ROOT
+  as well as / for all EAPIs rather than instead of / for EAPI 6 and below
+  (bug #435066).
 
 portage-3.0.64 (2024-04-28)
 --------------
